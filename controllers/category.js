@@ -1,3 +1,6 @@
+const Category = require('../models/Category')
+const Position = require('../models/Position')
+
 module.exports.getAll = function (req, res) {
     res.json({message: 'Categories'})
 }
